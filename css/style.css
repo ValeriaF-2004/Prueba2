@@ -1,3 +1,7 @@
+body{
+	font-family: 'Catamaran',sans-serif;
+}
+
 :root{
 	--menu-hover:#FE8F01;
 	--color-general:#e0e0e0;
@@ -14,6 +18,51 @@ header{
 	border-bottom:1px solid #eee;
 	margin-bottom:10px;
 }
+
+#welcome{
+	text-align: center;
+}
+
+#features i{
+	font-size: 128px;
+	color: #e0e0e0;
+	padding-bottom: 30px;
+}
+#features h5{
+	color: #282d33;
+}
+#features {
+	color: #898989;
+	text-align: center;
+	padding: 150px 0px;
+	background-color: #f7f7f7;
+}
+#features span{
+	color: #53c3c9;
+	font-size: 35px;
+}
+
+#cta{
+	background-image:url("../img/using-touchscreen.jpg");
+	padding: 180px 0px;
+	background-size: cover;
+	background-position:center;
+	text-align: left;
+	color: #FFF;
+	font-weight: 150;
+}
+#cta article{
+	font-size: 15px;
+	padding: 0 100px;
+}
+#cta h1{
+	font-size: 60px;
+}
+
+#clients{
+	padding: 50px 0px;
+}
+
 footer{
 	background-color: #333333;
 	color: #bababa;
